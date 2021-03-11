@@ -7,7 +7,6 @@ import { selectChannelId, selectChannelName } from './features/appSlice'
 import { selectUser } from './features/userSlice'
 import db from './Firebase'
 import Message from './Message'
-import firebase from './Firebase';
 
 function Chat() {
     const user = useSelector(selectUser);
