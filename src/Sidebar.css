@@ -1,0 +1,42 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: .25;
+    height: 100vh;
+    background-color: #2f3135;
+
+}
+
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2f3135;
+    color: white;
+    border-radius: 3px solid #26282c;
+}
+
+.sidebar_channels{
+    flex: 1;
+}
+.sidebar__addChannel{
+    color: white;
+}
+.sidebar__addChannel{
+    cursor: pointer;
+}
+
+.sidebar__channelsHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: gray;
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}
